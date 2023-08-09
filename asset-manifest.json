@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/crawless-ui/static/css/main.975e4000.css",
+    "main.js": "/crawless-ui/static/js/main.a6d90734.js",
+    "static/js/787.d14e29d1.chunk.js": "/crawless-ui/static/js/787.d14e29d1.chunk.js",
+    "static/media/avatar6.svg": "/crawless-ui/static/media/avatar6.785ef68629acaabc2127c93922c6835d.svg",
+    "static/media/avatar2.svg": "/crawless-ui/static/media/avatar2.6bfb593f1e8a5b8973a454c3aff556c8.svg",
+    "static/media/avatar1.svg": "/crawless-ui/static/media/avatar1.8f038395ffa27921f22c795f75df10b6.svg",
+    "static/media/avatar5.svg": "/crawless-ui/static/media/avatar5.77ef0a35d536e0cd8278171c72cf36fb.svg",
+    "static/media/avatar4.svg": "/crawless-ui/static/media/avatar4.f2d11ee78d9de01fd9c4c697dd0a116e.svg",
+    "static/media/hero_col-2_avatar.svg": "/crawless-ui/static/media/hero_col-2_avatar.4ff7eee7fd6a8f346572a5684632ff88.svg",
+    "static/media/avatar3.svg": "/crawless-ui/static/media/avatar3.8be58b0a0123006a24080df768ee4d54.svg",
+    "static/media/hero_settings.svg": "/crawless-ui/static/media/hero_settings.3ea92419aa0496c471aa210f78cd32c6.svg",
+    "static/media/hero_main.svg": "/crawless-ui/static/media/hero_main.d1f38858388e6c331eedc27be4350e64.svg",
+    "static/media/tasks.svg": "/crawless-ui/static/media/tasks.03f934686a118d7d840f36bf05a93667.svg",
+    "static/media/selectionMultiple.svg": "/crawless-ui/static/media/selectionMultiple.2cf2ac5238806c6a6e983b5b7525dc2c.svg",
+    "static/media/tasks_selections.svg": "/crawless-ui/static/media/tasks_selections.4363fa84516e5426990aa71ef7c5a787.svg",
+    "static/media/docs.svg": "/crawless-ui/static/media/docs.032089a5e5b01629754da42bde1d01f7.svg",
+    "static/media/eye.svg": "/crawless-ui/static/media/eye.48cc59fc79f94e359b37913c20cb7fad.svg",
+    "static/media/brackets.svg": "/crawless-ui/static/media/brackets.92cab5c44cbc39a5f484fb6bc3e31abc.svg",
+    "static/media/hero_issues.svg": "/crawless-ui/static/media/hero_issues.7f2384888ac12afd50938c7b6e724a09.svg",
+    "static/media/hero_subheading.svg": "/crawless-ui/static/media/hero_subheading.cb84f8770887c721193aad13dafcc24a.svg",
+    "static/media/hero_link-icon.svg": "/crawless-ui/static/media/hero_link-icon.f528e1a81daba271a3dac0db8c6a1c16.svg",
+    "static/media/tasks_source.svg": "/crawless-ui/static/media/tasks_source.5778f67f9ff57fa24c18e7144be30de3.svg",
+    "index.html": "/crawless-ui/index.html",
+    "static/media/download-icon.svg": "/crawless-ui/static/media/download-icon.765787801610b85be5dd935611a816d4.svg",
+    "static/media/cursor.svg": "/crawless-ui/static/media/cursor.bd24a1a480b6e2fcb713be59f2d604c1.svg",
+    "static/media/folder.svg": "/crawless-ui/static/media/folder.40bd4ffdaf362b770562a573098e12c8.svg",
+    "static/media/selections0.svg": "/crawless-ui/static/media/selections0.c0e7b8cf68bea8d4c4b97227fdba0124.svg",
+    "static/media/selections1.svg": "/crawless-ui/static/media/selections1.bb44d8261fbda87665c1af613608a3a1.svg",
+    "static/media/selections2.svg": "/crawless-ui/static/media/selections2.fdbdb789f9f0989ba72511d9a4654b3f.svg",
+    "static/media/selections3.svg": "/crawless-ui/static/media/selections3.080ec0b66c6e8dc77d5e7610478db349.svg",
+    "static/media/selections4.svg": "/crawless-ui/static/media/selections4.e2af57e7b63c9dabf7e0283b400ab9e1.svg",
+    "static/media/arrow_right.svg": "/crawless-ui/static/media/arrow_right.52f475651ca68137797c23dbbd99d5fd.svg",
+    "main.975e4000.css.map": "/crawless-ui/static/css/main.975e4000.css.map",
+    "main.a6d90734.js.map": "/crawless-ui/static/js/main.a6d90734.js.map",
+    "787.d14e29d1.chunk.js.map": "/crawless-ui/static/js/787.d14e29d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.975e4000.css",
+    "static/js/main.a6d90734.js"
+  ]
+}
