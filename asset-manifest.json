@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/crawless-ui/static/css/main.975e4000.css",
-    "main.js": "/crawless-ui/static/js/main.05ea4119.js",
+    "main.css": "/crawless-ui/static/css/main.6a42500f.css",
+    "main.js": "/crawless-ui/static/js/main.f34936bc.js",
     "static/js/787.d14e29d1.chunk.js": "/crawless-ui/static/js/787.d14e29d1.chunk.js",
     "static/media/avatar6.svg": "/crawless-ui/static/media/avatar6.785ef68629acaabc2127c93922c6835d.svg",
     "static/media/avatar2.svg": "/crawless-ui/static/media/avatar2.6bfb593f1e8a5b8973a454c3aff556c8.svg",
@@ -23,7 +23,7 @@
     "static/media/hero_link-icon.svg": "/crawless-ui/static/media/hero_link-icon.f528e1a81daba271a3dac0db8c6a1c16.svg",
     "static/media/tasks_source.svg": "/crawless-ui/static/media/tasks_source.5778f67f9ff57fa24c18e7144be30de3.svg",
     "index.html": "/crawless-ui/index.html",
-    "static/media/download-icon.svg": "/crawless-ui/static/media/download-icon.765787801610b85be5dd935611a816d4.svg",
+    "static/media/download-icon.svg": "/crawless-ui/static/media/download-icon.37cb3591a202a747eba10926e9928216.svg",
     "static/media/cursor.svg": "/crawless-ui/static/media/cursor.bd24a1a480b6e2fcb713be59f2d604c1.svg",
     "static/media/folder.svg": "/crawless-ui/static/media/folder.40bd4ffdaf362b770562a573098e12c8.svg",
     "static/media/selections0.svg": "/crawless-ui/static/media/selections0.c0e7b8cf68bea8d4c4b97227fdba0124.svg",
@@ -32,12 +32,12 @@
     "static/media/selections3.svg": "/crawless-ui/static/media/selections3.080ec0b66c6e8dc77d5e7610478db349.svg",
     "static/media/selections4.svg": "/crawless-ui/static/media/selections4.e2af57e7b63c9dabf7e0283b400ab9e1.svg",
     "static/media/arrow_right.svg": "/crawless-ui/static/media/arrow_right.52f475651ca68137797c23dbbd99d5fd.svg",
-    "main.975e4000.css.map": "/crawless-ui/static/css/main.975e4000.css.map",
-    "main.05ea4119.js.map": "/crawless-ui/static/js/main.05ea4119.js.map",
+    "main.6a42500f.css.map": "/crawless-ui/static/css/main.6a42500f.css.map",
+    "main.f34936bc.js.map": "/crawless-ui/static/js/main.f34936bc.js.map",
     "787.d14e29d1.chunk.js.map": "/crawless-ui/static/js/787.d14e29d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.975e4000.css",
-    "static/js/main.05ea4119.js"
+    "static/css/main.6a42500f.css",
+    "static/js/main.f34936bc.js"
   ]
 }
