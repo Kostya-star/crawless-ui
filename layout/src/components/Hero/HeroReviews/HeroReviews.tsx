@@ -17,7 +17,7 @@ export const HeroReviews = () => {
             17780
           </span>
           <span>
-            <DownloadIcon />
+            <DownloadIcon/>
             931
           </span>
         </div>

@@ -32,7 +32,7 @@ export const TasksHeader = () => {
   return (
     <div className="task__header">
       <div className="task__header__col-1">
-        <TasksIcon className="svg" />
+        <TasksIcon/>
         {headerTitle}
       </div>
       <ul className="task__header__list">

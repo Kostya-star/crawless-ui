@@ -40,11 +40,7 @@ export const HeroNavigation = () => {
             to={item.page}
             className={`hero__navigation__link ${isActive ? 'active' : ''}`}
           >
-            {
-              <item.svg
-                className={`hero__navigation__svg ${isActive ? 'active' : ''}`}
-              />
-            }
+            {<item.svg />}
             <span>{item.page}</span>
           </Link>
         );

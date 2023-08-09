@@ -126,9 +126,8 @@
     &__reviews-list {
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      // gap: 20px;
       list-style: none;
-      padding: 15px;
       overflow-y: auto;
       height: 360px;
       &::-webkit-scrollbar {
@@ -144,15 +143,17 @@
       }
     }
     &__review-item {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+      background-color: $black;
       .review-item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 15px;
         &__numbers {
           font-size: 12px;
           padding: 5px;
           border-radius: 10px;
-          background-color: $black;
+          background-color: black;
           width: fit-content;
         }
         &__latest {
@@ -178,6 +179,9 @@
           line-height: 16px;
         }
       }
+      &:hover {
+        background-color: #2D2763;
+      }
     }
   }
 
@@ -193,6 +197,9 @@
       font-size: 14px;
       color: $light-gray;
       cursor: pointer;
+      svg {
+        fill: $light-gray;
+      }
       span {
         &::first-letter {
           text-transform: uppercase;
@@ -200,12 +207,9 @@
       }
       &.active {
         color: $purple;
-      }
-    }
-    &__svg {
-      fill: $light-gray;
-      &.active {
-        fill: $purple;
+        svg {
+          fill: $purple;
+        }
       }
     }
   }
