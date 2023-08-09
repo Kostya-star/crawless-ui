@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/crawless-ui/static/css/main.975e4000.css",
-    "main.js": "/crawless-ui/static/js/main.6e55b692.js",
+    "main.js": "/crawless-ui/static/js/main.a46f0dce.js",
     "static/js/787.d14e29d1.chunk.js": "/crawless-ui/static/js/787.d14e29d1.chunk.js",
     "static/media/avatar6.svg": "/crawless-ui/static/media/avatar6.785ef68629acaabc2127c93922c6835d.svg",
     "static/media/avatar2.svg": "/crawless-ui/static/media/avatar2.6bfb593f1e8a5b8973a454c3aff556c8.svg",
@@ -33,11 +33,11 @@
     "static/media/selections4.svg": "/crawless-ui/static/media/selections4.e2af57e7b63c9dabf7e0283b400ab9e1.svg",
     "static/media/arrow_right.svg": "/crawless-ui/static/media/arrow_right.52f475651ca68137797c23dbbd99d5fd.svg",
     "main.975e4000.css.map": "/crawless-ui/static/css/main.975e4000.css.map",
-    "main.6e55b692.js.map": "/crawless-ui/static/js/main.6e55b692.js.map",
+    "main.a46f0dce.js.map": "/crawless-ui/static/js/main.a46f0dce.js.map",
     "787.d14e29d1.chunk.js.map": "/crawless-ui/static/js/787.d14e29d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.975e4000.css",
-    "static/js/main.6e55b692.js"
+    "static/js/main.a46f0dce.js"
   ]
 }
