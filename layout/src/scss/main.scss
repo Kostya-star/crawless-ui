@@ -1,0 +1,22 @@
+@import './hero';
+@import './vars';
+@import './pages/settings';
+@import './pages/issues';
+@import './pages/tasks';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #151515;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

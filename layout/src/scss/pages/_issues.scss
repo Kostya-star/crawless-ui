@@ -1,0 +1,86 @@
+.issues {
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-column-gap: 20px;
+  margin: 40px 0px;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: $black;
+    padding: 20px 25px;
+    border-radius: 10px;
+    &-item {
+      display: flex;
+      gap: 20px;
+      &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 10px;
+        h3 {
+          font-size: 16px;
+          font-weight: 700;
+        }
+        p {
+          font-size: 14px;
+          color: $light-gray;
+          line-height: 20px;
+        }
+        span {
+          font-size: 14px;
+          color: $light-gray;
+          .highlighted {
+            color: $purple;
+          }
+        }
+      }
+    }
+  }
+
+  @mixin form-input-styles {
+    padding: 10px 5px;
+    background-color: #151515;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8px;
+    background-color: $dark-gray;
+    &__input {
+      &-title {
+        @include form-input-styles;
+        &::placeholder {
+          font-weight: 700;
+          font-size: 16px;
+        }
+      }
+      &-description {
+        @include form-input-styles;
+        min-height: 80px;
+        resize: none;
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+      &-submit {
+        text-align: right;
+        input {
+          padding: 10px 15px;
+          background-color: #5c53f3;
+          border-radius: 5px;
+          border: none;
+          font-size: 14px;
+          color: white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

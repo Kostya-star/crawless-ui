@@ -1,0 +1,212 @@
+@import './vars';
+
+.hero {
+  background-color: $dark-gray;
+  padding: 30px 0 10px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__main {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    &::after {
+      content: '';
+      width: 130%;
+      height: 1px;
+      background-color: black;
+      position: absolute;
+      bottom: 30px;
+    }
+  }
+  &__subheading {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 30px;
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    color: $purple;
+    text-decoration: none;
+  }
+  &__text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 435px;
+    line-height: 28px;
+  }
+  &__hash_list {
+    display: flex;
+    gap: 7px;
+    list-style: none;
+    margin-bottom: 20px;
+    li {
+      padding: 5px 10px;
+      background-color: $light-black;
+      border-radius: 5px;
+      color: $purple;
+    }
+  }
+  &__buttons {
+    display: flex;
+    gap: 15px;
+    &__import {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 64px;
+      font-size: 18px;
+      background-color: #b9e01e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    &__try-now {
+      padding: 10px 30px;
+      font-size: 18px;
+      color: $purple;
+      border-radius: 5px;
+      border: 1px solid $purple;
+      background-color: transparent;
+      cursor: pointer;
+    }
+  }
+  .col-2 {
+    width: 304px;
+    // height: 381px;
+    background-color: $black;
+    border-radius: 10px;
+    &__top {
+      padding: 5px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      background-color: $light-black;
+      &__group {
+        display: flex;
+        gap: 10px;
+        span {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 7px;
+          background-color: $black;
+          border-radius: 5px;
+          font-size: 10px;
+          color: $light-gray;
+          svg {
+            path {
+              fill: $light-gray;
+            }
+          }
+        }
+      }
+    }
+    &__avatar {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 12px;
+      color: $purple;
+    }
+    &__reviews-list {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      list-style: none;
+      padding: 15px;
+      overflow-y: auto;
+      height: 360px;
+      &::-webkit-scrollbar {
+        background-color: transparent;
+        width: 5px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: $light-gray;
+        border-radius: 6px;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
+    }
+    &__review-item {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .review-item {
+        &__numbers {
+          font-size: 12px;
+          padding: 5px;
+          border-radius: 10px;
+          background-color: $black;
+          width: fit-content;
+        }
+        &__latest {
+          padding: 3px 15px;
+          color: #6ac33e;
+          border: 1px solid #6ac33e;
+          border-radius: 20px;
+          font-size: 10px;
+          font-weight: 700;
+          &-option {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+          }
+        }
+        &__date {
+          font-size: 10px;
+          color: #71717e;
+        }
+        &__text {
+          color: $light-gray;
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    &__link {
+      text-decoration: none;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-size: 14px;
+      color: $light-gray;
+      cursor: pointer;
+      span {
+        &::first-letter {
+          text-transform: uppercase;
+        }
+      }
+      &.active {
+        color: $purple;
+      }
+    }
+    &__svg {
+      fill: $light-gray;
+      &.active {
+        fill: $purple;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_6_12508" style="mask-type: alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+    <path d="M4.5 2C3.67578 2 3 2.67578 3 3.5V12.5C3 13.3242 3.67578 14 4.5 14H11.5C12.3242 14 13 13.3242 13 12.5V5.29297L9.70703 2H4.5ZM4.5 3H9V6H12V12.5C12 12.7812 11.7812 13 11.5 13H4.5C4.21875 13 4 12.7812 4 12.5V3.5C4 3.21875 4.21875 3 4.5 3ZM10 3.70703L11.293 5H10V3.70703ZM6 8V9H10V8H6ZM6 10V11H9V10H6Z" />
+  </mask>
+  <g mask="url(#mask0_6_12508)">
+    <rect width="16" height="16" />
+  </g>
+</svg>
+<!-- <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_6_12508" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="16">
+<path d="M4.5 2C3.67578 2 3 2.67578 3 3.5V12.5C3 13.3242 3.67578 14 4.5 14H11.5C12.3242 14 13 13.3242 13 12.5V5.29297L9.70703 2H4.5ZM4.5 3H9V6H12V12.5C12 12.7812 11.7812 13 11.5 13H4.5C4.21875 13 4 12.7812 4 12.5V3.5C4 3.21875 4.21875 3 4.5 3ZM10 3.70703L11.293 5H10V3.70703ZM6 8V9H10V8H6ZM6 10V11H9V10H6Z" fill="#A3A3B1"/>
+</mask>
+<g mask="url(#mask0_6_12508)">
+<rect width="16" height="16" fill="#A3A3B1"/>
+</g>
+</svg> -->
+

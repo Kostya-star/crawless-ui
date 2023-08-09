@@ -1,0 +1,36 @@
+.settings {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-column-gap: 20px;
+    padding: 40px 0px;
+    &__proxy {
+        &_green {
+            color: #D3F261;
+        }
+        &_red {
+            color: #FF8979;
+        }
+    }
+    &__profiles {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 12px;
+            color: $light-gray;
+            background-color: $black;
+            padding: 10px 0px 10px 20px;
+            list-style: none;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            li {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        &__svg {
+            fill: #ECECEC
+        }
+    }
+}
